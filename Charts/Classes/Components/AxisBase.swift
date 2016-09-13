@@ -336,7 +336,7 @@ public class AxisBase: ComponentBase
         {
             _customAxisMax = true
             _axisMaximum = newValue
-            axisRange = abs(_axisMaximum - newValue)
+            axisRange = abs(_axisMinimum - newValue)
         }
     }
     
